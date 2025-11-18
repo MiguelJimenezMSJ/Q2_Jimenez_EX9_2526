@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Bootstrap Styling</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container fluid">
+                <a href="index.html" class="navbar brand">Logo</a>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact us</a></li>
+                    <li class="nav-item"><a href="about_us.html" class="nav-link">About us</a></li> 
+                </ul>
+                <form class="d-flex">
+                    <input type="text" class="form-control me-2" placeholder="search">
+                    <button type="button" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="container mt-3">
+            <form>
+                <div class="mb-3 mt-3">
+                <input type="textbox" placeholder="Enter Name" class="form-control">
+                <input type="textbox" placeholder="Enter Age" class="form-control">
+                </div>
+                <div class="mb-3">
+                <label>Male</label> <input type="radio" name="gender" class="form-check-input">
+                <label>Female</label> <input type="radio" name="gender" class="form-check-input">
+                <label>Favorite Food</label>
+                <label>Noodles</label> <input type="checkbox" class="form-check-input">
+                <label>Dumplings</label> <input type="checkbox" class="form-check-input">
+                <label>Takoyaki</label> <input type="checkbox" class="form-check-input">
+                <label>Potato</label> <input type="checkbox" class="form-check-input">
+                <label class="from-label">Birth Year:</label>
+                <select class="form-select">
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                </select>
+                </div>
+                <div class="form-check mb-3">
+                <textarea cols="25" rows="15"></textarea>
+                <input type="submit" value="collect" class="btn btn-outline-success btn-block">
+                <input type="reset" value="clear"  class="btn btn-warning btn-block">
+                </div>
+                <div class="d-grid gap-3">
+                <button type="button" class="btn btn-primary btn-block">Collect</button>
+                </div>
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">ON & OFF</label>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
